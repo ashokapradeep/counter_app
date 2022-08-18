@@ -1,5 +1,4 @@
 body {
-    background-image: url("hub-min.jpg");
     background-size: cover;
     font-family:'Roboto Mono', monospace, sans-serif;
     font-weight: bold;
@@ -7,6 +6,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     padding-top: 50px;
+    background-color: #bdc3c7;
 
 }
 .container{
