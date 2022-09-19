@@ -8,6 +8,24 @@ function increment() {
     countEl.textContent = count
 }
 
+function plusTwo() {
+    count += 2
+    countEl.textContent = count
+}
+
+function plusThree() {
+    count += 3
+    countEl.textContent = count
+}
+function plusFour() {
+    count += 4
+    countEl.textContent = count
+}
+function plusFive() {
+    count += 5
+    countEl.textContent = count
+}
+
 function decrement() {
     count -= 1
     countEl.textContent = count
@@ -15,12 +33,12 @@ function decrement() {
 
 function save() {
     countAr.push(count)
-    saveEl.textContent = "Previous entries:"+countAr
-    countEl.textContent = 0
+    saveEl.textContent = ""+countAr
+    countEl.textContent = "0"
     count = 0
 }
 function reset() {
     countEl.textContent = 0
     count = 0
-    saveEl.textContent = "Previous entries: "
+    saveEl.textContent = ""
 }

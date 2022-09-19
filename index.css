@@ -10,25 +10,39 @@ body {
 
 }
 .container{
-    /*display: flex;*/
+    display: flex;
+    justify-content: space-around;
+    position: relative;
     background: white;
     width: 90%;
     max-width: 900px;
     min-width: 400px;
+    min-height: 600px;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
     height: 90vh;
+
+
 }
+.count-heading-container{
+    position: absolute;
+    top: 5%;
+}
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-h2 {
-    font-size: 50px;
+.count-container{
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    top: 8%;
+}
+#count-el {
     margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 170px;
 }
 
 button {
@@ -37,24 +51,120 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 50%;
-    min-width: 300px;
+    font-size: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
     margin-right: 10px;
-    height: 10%;
+    height: 100%;
 }
-
+.increment-btn-container{
+    position: absolute;
+    width: 40%;
+    height: 19%;
+    top: 40%;
+    right: 15%;
+}
 #increment-btn {
     background: #9b59b6;
+    width: 100%;
+}
+.quick-btn-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 28%;
+    height: 19%;
+    top: 40%;
+    left: 15%;
+}
+.plusTwo-btn-container{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    left: 0;
+}
+#plusTwo-btn{
+    background: #3498db;
+    width: 100%;
+    height: 100%;
+}
+
+.plusThree-btn-container{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    left: 50%;
+}
+#plusThree-btn{
+    background: #95a5a6;
+    width: 100%;
+    height: 100%;
+}
+.plusFour-btn-container{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    left: 0;
+    top:50%
+}
+#plusFour-btn{
+    background: #95a5a6;
+    width: 100%;
+    height: 100%;
+}
+.plusFive-btn-container{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    left: 50%;
+    top:50%;
+}
+#plusFive-btn{
+    background: #3498db;
+    width: 100%;
+    height: 100%;
+}
+
+
+.decrement-btn-container{
+    position: absolute;
+    width: 28%;
+    height: 10%;
+    top: 60%;
+    left: 15%;
 }
 #decrement-btn {
     background: #e67e22;
+    width: 100%;
 }
-
+.save-btn-container{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top: 60%;
+    right: 15%;
+}
 #save-btn {
     background: #27ae60;
+    width: 100%;
+}
+
+.reset-btn-container{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    bottom: 5%;
 }
 #reset-btn {
     background: #34495e;
+    width: 100%;
+
 }
+.save-para-container{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top: 70%;
+}
+
+
